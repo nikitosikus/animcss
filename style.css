@@ -1,0 +1,107 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+/* БАЗОВЫЙ */
+body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	padding: 20px;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	max-height: 1450px;
+	overflow: hidden;
+}
+.mainNav {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+.mainNav li {
+ float: left;
+ width: 14em;
+}
+.mainNav a {
+ color: #000;
+ font-size: 11px;
+ text-transform: uppercase;
+ text-decoration: none;
+ border: 1px dashed #999;
+border-bottom: none;
+ padding: 7px 5px 7px 30px;
+display: block;
+background-color: #E7E7E7;
+ background-image: url(images/nav.png);
+ background-repeat: no-repeat;
+ background-position: 0 2px;
+}
+.mainNav li:last-of-type a {
+ border-right: 1px dashed #999;
+}
+.mainNav a:hover {
+ font-weight: bold;
+ background-color: #B2F511;
+ background-position: 3px 50%;
+}
+.wrapp {
+	max-width: 1450px;
+	height: 100px;
+	margin: 0 auto;
+	background: violet;
+	animation-name: fadeIn;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-outse;
+}
+@keyframes fadeIn {
+	from {
+		/*position: relative;*/
+		/*left: -100%;*/
+		transform: scale(2);
+		opacity: 0;
+
+		}
+	30% {
+		opacity: 0;
+		}
+	to {
+		/*left: 100%;*/
+		/*transition-timing-function: step-end;*/
+		opacity: 1;
+		}
+	}
+.wrapp2 {
+	background: red; max-width: 1000px; height: 100px;animation-name: fadeIn; animation-duration: 4.5s; margin: 0 auto;
+}
+.wrapp3 {
+	background: blue; max-width: 1000px; height: 100px;animation-name: fadeIn; animation-duration: 2.5s; margin: 0 auto;
+}
+.wrapp4 {
+	background: green; max-width: 1000px; height: 100px;animation-name: fadeIn; animation-duration: 6.5s; margin: 0 auto;
+}
